@@ -1,0 +1,1 @@
+web/aplikace, kde si milovníci lachtanů můžou adoptovat lachtana v nějaké ZOO a kupovat pro něj jídlo a třeba i nějaké hračky.
