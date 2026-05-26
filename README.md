@@ -1,1 +1,3 @@
-web/aplikace, kde si milovníci lachtanů můžou adoptovat lachtana v nějaké ZOO a kupovat pro něj jídlo a třeba i nějaké hračky.
+webová aplikace, kde si milovníci lachtanů můžou adoptovat lachtana v nějaké ZOO a kupovat pro něj jídlo a třeba i nějaké hračky.
+
+Projekt se zaměřuje na návrh informačního systému ve formě webové aplikace, která umožní milovníkům lachtanů symbolicky adoptovat nějakého lachtana ze zoologické zahrady. Uživatelé budou moci svému adoptovanému zvířeti finačně přispívat na potravu, kupovat hračky nebo sledovat informace o jeho životě a o tom, jak se o něj v ZOO pečuje. Cílem projektu je propojit zábavu, podporu zoologickách zahrad a ochranu zvířat pomocí přehledné a uživatelsky prívětivé aplikace.
