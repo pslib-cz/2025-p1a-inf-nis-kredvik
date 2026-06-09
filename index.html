@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Informační systém adopce lachtanů</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f6f8;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#0077b6;
+    color:white;
+    padding:40px;
+    text-align:center;
+}
+
+main{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+section{
+    background:white;
+    margin-bottom:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2{
+    margin-bottom:15px;
+    color:#0077b6;
+}
+
+.diagram-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+    gap:20px;
+}
+
+.diagram{
+    text-align:center;
+}
+
+.diagram img{
+    width:100%;
+    border:1px solid #ddd;
+    border-radius:8px;
+    background:white;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#666;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Informační systém adopce lachtanů</h1>
+    <p>Školní projekt – Návrh informačního systému</p>
+</header>
+
+<main>
+
+<section>
+    <h2>O projektu</h2>
+    <p>
+        Projekt představuje návrh informačního systému zaměřeného na podporu
+        symbolické adopce lachtanů. Uživatelé mohou prohlížet lachtany,
+        symbolicky je adoptovat a podporovat jejich chov nákupem produktů.
+    </p>
+</section>
+
+<section>
+    <h2>Funkční požadavky</h2>
+
+    <ul>
+        <li>Registrace a přihlášení uživatelů</li>
+        <li>Správa uživatelského profilu</li>
+        <li>Prohlížení seznamu lachtanů</li>
+        <li>Symbolická adopce lachtanů</li>
+        <li>Nákup krmiva a hraček</li>
+        <li>Správa lachtanů administrátorem</li>
+        <li>Správa adopcí</li>
+        <li>Správa produktů</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Diagramy</h2>
+
+    <div class="diagram-grid">
+
+        <div class="diagram">
+            <h3>Use Case Diagram</h3>
+            <img src="diagramy/use case diagram.svg" alt="Use Case Diagram">
+        </div>
+
+        <div class="diagram">
+            <h3>Class Diagram</h3>
+            <img src="diagramy/class diagram.svg" alt="Class Diagram">
+        </div>
+
+        <div class="diagram">
+            <h3>Activity Diagram</h3>
+            <img src="diagramy/activity diagram.svg" alt="Activity Diagram">
+        </div>
+
+        <div class="diagram">
+            <h3>Sequence Diagram</h3>
+            <img src="diagramy/sequence diagram.svg" alt="Sequence Diagram">
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>2025 • Projekt informačního systému • P1A</p>
+</footer>
+
+</body>
+</html>
+```

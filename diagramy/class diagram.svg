@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="980">
+
+  <defs>
+    <marker id="inheritance" markerWidth="16" markerHeight="16" refX="14" refY="8" orient="auto">
+      <path d="M0,8 L14,0 L14,16 Z" fill="white" stroke="black"></path>
+    </marker>
+  </defs>
+
+  <style>
+    .box {
+      fill: white;
+      stroke: black;
+      stroke-width: 2;
+    }
+
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      text-anchor: middle;
+    }
+
+    .txt {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+    }
+
+    .line {
+      stroke: black;
+      stroke-width: 2;
+      fill: none;
+    }
+
+    .card {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  </style>
+
+  <!-- ================= UŽIVATEL ================= -->
+
+  <rect x="80" y="80" width="260" height="250" class="box"></rect>
+
+  <line x1="80" y1="115" x2="340" y2="115" stroke="black"></line>
+  <line x1="80" y1="225" x2="340" y2="225" stroke="black"></line>
+
+  <text x="210" y="102" class="title">Uživatel</text>
+
+  <text x="95" y="140" class="txt">id</text>
+  <text x="95" y="160" class="txt">jméno</text>
+  <text x="95" y="180" class="txt">email</text>
+  <text x="95" y="200" class="txt">heslo</text>
+  <text x="95" y="220" class="txt">datumRegistrace</text>
+
+  <text x="95" y="255" class="txt">+ registrovat()</text>
+  <text x="95" y="275" class="txt">+ přihlásit()</text>
+  <text x="95" y="295" class="txt">+ odhlásit()</text>
+  <text x="95" y="315" class="txt">+ upravitProfil()</text>
+
+
+  <!-- ================= ADMINISTRÁTOR ================= -->
+
+  <rect x="80" y="430" width="260" height="180" class="box"></rect>
+
+  <line x1="80" y1="465" x2="340" y2="465" stroke="black"></line>
+  <line x1="80" y1="500" x2="340" y2="500" stroke="black"></line>
+
+  <text x="210" y="452" class="title">Administrátor</text>
+
+  <text x="95" y="488" class="txt">role</text>
+
+  <text x="95" y="535" class="txt">+ spravovatLachtany()</text>
+  <text x="95" y="555" class="txt">+ spravovatProdukty()</text>
+  <text x="95" y="575" class="txt">+ spravovatAdopce()</text>
+
+
+  <!-- ================= ADOPCE ================= -->
+
+  <rect x="620" y="80" width="280" height="250" class="box"></rect>
+
+  <line x1="620" y1="115" x2="900" y2="115" stroke="black"></line>
+  <line x1="620" y1="225" x2="900" y2="225" stroke="black"></line>
+
+  <text x="760" y="102" class="title">Adopce</text>
+
+  <text x="635" y="140" class="txt">id</text>
+  <text x="635" y="160" class="txt">datumAdopce</text>
+  <text x="635" y="180" class="txt">platnostDo</text>
+  <text x="635" y="200" class="txt">stavAdopce</text>
+
+  <text x="635" y="255" class="txt">+ vytvořit()</text>
+  <text x="635" y="275" class="txt">+ prodloužit()</text>
+  <text x="635" y="295" class="txt">+ zrušit()</text>
+
+
+  <!-- ================= LACHTAN ================= -->
+
+  <rect x="1120" y="80" width="280" height="250" class="box"></rect>
+
+  <line x1="1120" y1="115" x2="1400" y2="115" stroke="black"></line>
+  <line x1="1120" y1="245" x2="1400" y2="245" stroke="black"></line>
+
+  <text x="1260" y="102" class="title">Lachtan</text>
+
+  <text x="1135" y="140" class="txt">id</text>
+  <text x="1135" y="160" class="txt">jméno</text>
+  <text x="1135" y="180" class="txt">věk</text>
+  <text x="1135" y="200" class="txt">pohlaví</text>
+  <text x="1135" y="220" class="txt">druh</text>
+  <text x="1135" y="240" class="txt">popis</text>
+
+  <text x="1135" y="275" class="txt">+ zobrazitDetail()</text>
+
+
+  <!-- ================= OBJEDNÁVKA ================= -->
+
+  <rect x="620" y="520" width="280" height="230" class="box"></rect>
+
+  <line x1="620" y1="555" x2="900" y2="555" stroke="black"></line>
+  <line x1="620" y1="665" x2="900" y2="665" stroke="black"></line>
+
+  <text x="760" y="542" class="title">Objednávka</text>
+
+  <text x="635" y="580" class="txt">id</text>
+  <text x="635" y="600" class="txt">datum</text>
+  <text x="635" y="620" class="txt">cenaCelkem</text>
+  <text x="635" y="640" class="txt">stavObjednávky</text>
+
+  <text x="635" y="695" class="txt">+ vytvořit()</text>
+  <text x="635" y="715" class="txt">+ vypočítatCenu()</text>
+
+
+  <!-- ================= PRODUKT ================= -->
+
+  <rect x="1120" y="520" width="280" height="230" class="box"></rect>
+
+  <line x1="1120" y1="555" x2="1400" y2="555" stroke="black"></line>
+  <line x1="1120" y1="685" x2="1400" y2="685" stroke="black"></line>
+
+  <text x="1260" y="542" class="title">Produkt</text>
+
+  <text x="1135" y="580" class="txt">id</text>
+  <text x="1135" y="600" class="txt">název</text>
+  <text x="1135" y="620" class="txt">cena</text>
+  <text x="1135" y="640" class="txt">typProduktu</text>
+  <text x="1135" y="660" class="txt">skladem</text>
+
+  <text x="1135" y="715" class="txt">+ zobrazit()</text>
+
+
+  <!-- ================= DĚDIČNOST ================= -->
+
+  <line x1="210" y1="430" x2="210" y2="330" class="line" marker-end="url(#inheritance)"></line>
+
+
+  <!-- ================= UŽIVATEL - ADOPCE ================= -->
+
+  <line x1="340" y1="190" x2="620" y2="190" class="line"></line>
+
+  <text x="355" y="175" class="card">1</text>
+  <text x="600" y="175" class="card">*</text>
+
+
+  <!-- ================= ADOPCE - LACHTAN ================= -->
+
+  <line x1="900" y1="190" x2="1120" y2="190" class="line"></line>
+
+  <text x="915" y="175" class="card">1</text>
+  <text x="1095" y="175" class="card">1</text>
+
+
+  <!-- ================= UŽIVATEL - OBJEDNÁVKA ================= -->
+
+  <line x1="340" y1="635" x2="620" y2="635" class="line"></line>
+
+  <line x1="340" y1="635" x2="340" y2="240" class="line"></line>
+
+  <text x="355" y="620" class="card">1</text>
+  <text x="600" y="620" class="card">*</text>
+
+
+  <!-- ================= OBJEDNÁVKA - PRODUKT ================= -->
+
+  <line x1="900" y1="635" x2="1120" y2="635" class="line"></line>
+
+  <text x="915" y="620" class="card">1</text>
+  <text x="1095" y="620" class="card">*</text>
+
+</svg>
